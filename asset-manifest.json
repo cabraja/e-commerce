@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/e-commerce/static/css/main.1315246d.chunk.css",
-    "main.js": "/e-commerce/static/js/main.b5d24e61.chunk.js",
-    "main.js.map": "/e-commerce/static/js/main.b5d24e61.chunk.js.map",
+    "main.css": "/e-commerce/static/css/main.7c9f77c5.chunk.css",
+    "main.js": "/e-commerce/static/js/main.535cf7b4.chunk.js",
+    "main.js.map": "/e-commerce/static/js/main.535cf7b4.chunk.js.map",
     "runtime-main.js": "/e-commerce/static/js/runtime-main.aeca1c59.js",
     "runtime-main.js.map": "/e-commerce/static/js/runtime-main.aeca1c59.js.map",
-    "static/js/2.0f40841f.chunk.js": "/e-commerce/static/js/2.0f40841f.chunk.js",
-    "static/js/2.0f40841f.chunk.js.map": "/e-commerce/static/js/2.0f40841f.chunk.js.map",
+    "static/js/2.c4f65441.chunk.js": "/e-commerce/static/js/2.c4f65441.chunk.js",
+    "static/js/2.c4f65441.chunk.js.map": "/e-commerce/static/js/2.c4f65441.chunk.js.map",
     "index.html": "/e-commerce/index.html",
-    "static/css/main.1315246d.chunk.css.map": "/e-commerce/static/css/main.1315246d.chunk.css.map",
-    "static/js/2.0f40841f.chunk.js.LICENSE.txt": "/e-commerce/static/js/2.0f40841f.chunk.js.LICENSE.txt",
+    "static/css/main.7c9f77c5.chunk.css.map": "/e-commerce/static/css/main.7c9f77c5.chunk.css.map",
+    "static/js/2.c4f65441.chunk.js.LICENSE.txt": "/e-commerce/static/js/2.c4f65441.chunk.js.LICENSE.txt",
     "static/media/index.css": "/e-commerce/static/media/RobotoSlab-VariableFont_wght.27a558ea.ttf",
     "static/media/shop.css": "/e-commerce/static/media/banner.57a5d2fb.jpg",
     "static/media/home.css": "/e-commerce/static/media/sarah-dorweiler-7tFlUFGa7Dk-unsplash.54e9f2da.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.aeca1c59.js",
-    "static/js/2.0f40841f.chunk.js",
-    "static/css/main.1315246d.chunk.css",
-    "static/js/main.b5d24e61.chunk.js"
+    "static/js/2.c4f65441.chunk.js",
+    "static/css/main.7c9f77c5.chunk.css",
+    "static/js/main.535cf7b4.chunk.js"
   ]
 }
