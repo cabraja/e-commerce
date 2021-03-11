@@ -1,0 +1,170 @@
+@media only screen and (max-width: 359px) {
+  nav {
+    top: 12px !important;
+    right: 3px !important;
+  }
+  nav i {
+    font-size: 1.5rem !important;
+  }
+
+  #cart-num {
+    font-size: 10px;
+    height: 22px;
+    width: 22px;
+  }
+
+  #top-right h2 {
+    font-size: 1.4rem !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 14px;
+  }
+
+  /* GRID ------------------- */
+  main {
+    height: 180vh;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  /* TOP LEFT */
+
+  #top-left-text {
+    font-size: 0.8rem;
+  }
+
+  /* TOP LEFT */
+
+  /* TOP RIGHT */
+
+  #top-right {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  #top-right h2 {
+    font-size: 1.7rem;
+  }
+  #top-right p {
+    font-size: 0.8rem;
+    margin: 12px auto;
+  }
+
+  /* TOP RIGHT */
+
+  /* BOTTOM LEFT */
+  #bottom-left {
+    background-color: #f9f7f6;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  #bottom-left h2 {
+    font-size: 1.5rem;
+  }
+  #bottom-left p {
+    margin: 18px auto;
+    font-size: 0.8rem;
+  }
+  /* BOTTOM LEFT */
+  .main-button {
+    padding: 5px 14px;
+    font-size: 24px;
+  }
+
+  /* NAV */
+
+  nav {
+    top: -25px;
+    right: 5px;
+  }
+  nav i {
+    margin-right: 20px;
+    font-size: 1.7rem;
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+  }
+
+  /* GRID ------------------- */
+
+  /* ARTICLE */
+  article {
+    flex-direction: column;
+    padding: 8vh 0px;
+  }
+  section {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  section i {
+    font-size: 3rem;
+  }
+  section h4 {
+    font-size: 1.2rem;
+  }
+  /* ARTICLE */
+  #couch-div-wrapper {
+    height: 50vh;
+  }
+
+  #couch-div h3 {
+    text-align: center;
+  }
+  #couch-div button {
+    font-size: 3.4vh;
+    padding: 8px 20px;
+  }
+  /* COUCH DIV */
+
+  /* COUCH DIV */
+
+  /* FOOTER */
+  footer {
+    flex-direction: column;
+    padding: 16% 10% !important;
+  }
+
+  #footer-contact {
+    margin-top: 22px;
+  }
+  #footer-contact a {
+    font-size: 1.3rem;
+    margin-top: 5px;
+  }
+
+  #footer-moderna {
+    margin-top: 22px;
+    margin-bottom: 30px;
+  }
+  #footer-moderna a {
+    font-size: 1.3rem;
+    margin-top: 5px;
+  }
+
+  .footer-h5 {
+    margin-bottom: 0px;
+  }
+
+  #newsletter h5 {
+    font-size: 1.4rem;
+  }
+
+  input[type="email"] {
+    width: 120%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  :root {
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 5% 2%;
+  }
+
+  #footer-logo h5 {
+    font-size: 2vh;
+  }
+}

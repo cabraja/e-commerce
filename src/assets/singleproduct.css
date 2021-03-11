@@ -1,0 +1,207 @@
+.single-product {
+  width: 60%;
+  height: 60vh;
+  margin: 15vh auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+
+.back-to-products {
+  position: absolute;
+  top: -8vh;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: rgb(156, 125, 97);
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  transition: 0.2s;
+}
+.back-to-products:hover {
+  background-color: rgb(112, 84, 59);
+  transition: 0.2s;
+}
+
+.single-product-left {
+  height: 100%;
+  width: 45%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.single-product-right {
+  width: 50%;
+}
+.single-product-right h3 {
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+.single-product-right h4 {
+  font-size: 30px;
+  color: rgb(156, 125, 97);
+  margin-bottom: 20px;
+}
+.single-product-right p {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(99, 99, 99);
+  margin-bottom: 40px;
+}
+.single-product-right h5 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.single-product-right span {
+  font-weight: 800;
+  color: black;
+  margin-right: 10px;
+}
+
+.line-alt {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(133, 133, 133);
+}
+
+/* FORM ------------- */
+
+form h5 {
+  font-weight: 600 !important;
+}
+
+.form-colors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.form-colors h5 {
+  margin-right: 8px;
+}
+
+.form-colors button {
+  height: 35px;
+  width: 35px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  margin-left: 8px;
+  margin-top: -16px;
+}
+
+.color-button-content {
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.2s;
+  height: inherit;
+  width: inherit;
+  display: flex;
+  border-radius: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(58, 58, 58);
+  background-color: rgba(197, 197, 197, 0.719);
+}
+.color-button-content:hover {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.active-color {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+/* Form-counter */
+
+.form-counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100px;
+  margin-left: 15px;
+}
+
+.form-counter h6 {
+  font-size: 50px;
+  font-family: Helvetica;
+  color: rgb(43, 43, 43);
+}
+
+.form-counter button {
+  outline: none;
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.form-colors {
+  position: relative;
+}
+.color-warning {
+  position: absolute;
+  color: red;
+  top: -25px;
+  font-size: 16px;
+}
+
+.add-to-cart {
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: rgb(156, 125, 97);
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  transition: 0.2s;
+  margin-top: 20px;
+}
+
+.add-to-cart:hover {
+  background-color: rgb(112, 84, 59);
+  transition: 0.2s;
+}
+
+/* MODAL */
+
+@keyframes modal {
+  from {
+    margin-top: -100px;
+    opacity: 0.5;
+  }
+  to {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(235, 235, 235);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 6px 12px;
+  animation: modal 0.5s ease;
+}
+.modal h4 {
+  color: rgb(180, 80, 80);
+  font-size: 24px;
+  font-weight: 300;
+}
